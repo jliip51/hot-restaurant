@@ -1,5 +1,8 @@
+var express = require('express');
 var tableData = require("../data/tableData");
-var waitListData = require("../data/waitingListData");
+var waitListData = require("../data/waitingData");
+
+var app = express();
 
 module.exports = function(app) {
 	app.get("/api/tables", function(req, res){

@@ -1,4 +1,4 @@
-var waitingData = [
+var waitListData = [
   {
     'name': 'Jeff',
     'phoneNumber': '555-555-5555',
@@ -6,4 +6,4 @@ var waitingData = [
   }
 ];
 
-module.exports = waitingData;
+module.exports = waitListData;
