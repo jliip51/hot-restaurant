@@ -1,2 +1,1 @@
-# hot-restuarant
-Restaurant scheduling app
+# reservation-system
