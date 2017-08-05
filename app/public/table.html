@@ -54,8 +54,13 @@
       <div class="container">
         <p>Control Panel</p>
         <p><a href="#" id="clear">Clear Table</a> | <a href="/api/tables">API Table Link</a> | <a href="/api/waitlist">API Wait List</a> | <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a></p>
-<<<<<<< HEAD
-  <div class="modal fade">
+
+      </div>
+    </footer>
+
+  </div>
+
+   <div class="modal fade" id="clear">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -74,12 +79,6 @@
     </div>
   </div>
 </div>
-=======
->>>>>>> origin
-      </div>
-    </footer>
-
-  </div>
 
 </body>
 
@@ -173,10 +172,10 @@
     }
 
     $("#clear").on("click", function() {
-<<<<<<< HEAD
      
-      clearTable();
-    .modal('show')
+     
+    $('#clear').modal('show')
+     clearTable();
       // Refresh the page after data is cleared
       // location.reload();
 
